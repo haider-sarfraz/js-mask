@@ -13,7 +13,7 @@ const fieldsToMask = ['password']
 /* Imports
 /* ================================================================================ */
 const fs = require('fs');
-const payload = require('../payload');
+const payload = require('payload');
 const maskDeep = require('mask-deep');
 const maskJson = require('mask-json')(fieldsToMask,{ replacement: '*'});
 
